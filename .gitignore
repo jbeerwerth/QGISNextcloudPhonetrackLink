@@ -1,0 +1,6 @@
+# temp python files:
+*.pyc
+__pycache__
+NextcloudPhonetrack.zip
+
+

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/NextcloudPhonetrack" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

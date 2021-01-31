@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Nextcloud Phonetrack Link
+qgisMinimumVersion=3.0
+description=Nextcloud Phonetrack Link imports Points/ Lines from a Nextcloud instance.
+version=0.3
+author=Joachim Beerwerth
+email=joachim.beerwerth@tu-dortmund.de
+
+about=Import Data from a Nextcloud Phonetrack instance.
+
+tracker=https://github.com/jbeerwerth/QGISNextcloudPhonetrackLink/issues
+repository=https://github.com/jbeerwerth/QGISNextcloudPhonetrackLink
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python,cloud,nextcloud,phonetrack
+
+homepage=https://github.com/jbeerwerth/QGISNextcloudPhonetrackLink
+category=Web
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+#Category of the plugin: Raster, Vector, Database or Web
+#category=Web
+
+# If the plugin can run on QGIS Server.
+server=False
+
