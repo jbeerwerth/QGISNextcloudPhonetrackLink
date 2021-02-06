@@ -6,7 +6,7 @@
 name=Nextcloud Phonetrack Link
 qgisMinimumVersion=3.0
 description=Nextcloud Phonetrack Link imports Points/ Lines from a Nextcloud instance.
-version=0.3
+version=0.3.1
 author=Joachim Beerwerth
 email=joachim.beerwerth@tu-dortmund.de
 
@@ -27,7 +27,7 @@ tags=python,cloud,nextcloud,phonetrack
 
 homepage=https://github.com/jbeerwerth/QGISNextcloudPhonetrackLink
 category=Web
-icon=icon.png
+icon=icon.svg
 # experimental flag
 experimental=True
 

@@ -215,10 +215,10 @@ class NextcloudPhonetrack:
     def initGui(self):
         """Create the menu entries and toolbar icons inside the QGIS GUI."""
 
-        icon_path = ':/plugins/NextcloudPhonetrack/icon.png'
+        icon_path = ':/plugins/NextcloudPhonetrack/icon.svg'
         self.add_action(
             icon_path,
-            text=self.tr(u'Import Nextclode Phonetrack'),
+            text=self.tr(u'Import Nextcloud Phonetrack'),
             callback=self.run,
             parent=self.iface.mainWindow())
 

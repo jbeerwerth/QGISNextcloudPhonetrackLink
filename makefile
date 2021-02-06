@@ -30,7 +30,7 @@ PY_FILES = \
 
 UI_FILES = NextcloudPhonetrack_dialog_base.ui
 
-EXTRAS = metadata.txt icon.png
+EXTRAS = metadata.txt icon.svg
 
 #EXTRA_DIRS =
 
@@ -64,7 +64,7 @@ zip: deploy
 	# The zip target deploys the plugin and creates a zip file with the deployed
 	# content. You can then upload the zip file on http://plugins.qgis.org
 	rm -f $(PLUGINNAME).zip
-	cd $(QGISDIR); zip -9r $(CURDIR)/$(PLUGINNAME).zip $(PLUGINNAME)
+	cd $(QGISDIR); zip -9r "$(CURDIR)/$(PLUGINNAME).zip" "$(PLUGINNAME)" -x "$(PLUGINNAME)/__pycache__"
 
 clean:
 	@echo
@@ -72,3 +72,10 @@ clean:
 	@echo "Removing uic and rcc generated files"
 	@echo "------------------------------------"
 	rm $(COMPILED_RESOURCE_FILES)
+
+remove:
+	@echo
+	@echo "------------------------------------------"
+	@echo "Removing plugin from your QGIS3 directory."
+	@echo "------------------------------------------"
+	rm -rf $(QGISDIR)$(PLUGINNAME)
